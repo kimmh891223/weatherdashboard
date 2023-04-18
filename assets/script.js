@@ -86,7 +86,7 @@ function getGeoApi() {
     cityListEl.replaceChildren();
 
     // Calling the coordinate of the city
-    var requestUrl1 = 'http://api.openweathermap.org/geo/1.0/direct?q=' + textboxEl.value + '&limit=5&appid=eacb09a896b03f7a18a225f5cca578d5';
+    var requestUrl1 = 'https://api.openweathermap.org/geo/1.0/direct?q=' + textboxEl.value + '&limit=5&appid=eacb09a896b03f7a18a225f5cca578d5';
     fetch(requestUrl1)
         .then(function(response){
             return response.json();
