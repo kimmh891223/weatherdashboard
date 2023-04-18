@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="reset" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+<body>
+    <header>
+        <div class = headerContainer>
+            <h1 id="header">☀️ Weather Dashboard 🌧️</h1>
+        </div>
+    </header>
+    <main class="main">
+        <aside class="aside">
+            <div class="searchTitle">
+                <h2 id="searchTitle">Search for a City:</h2>
+            </div>
+            <div class="textbox">
+                <input type="text" id="textbox" placeholder="Enter City">
+            </div>
+            <div class="searchBtn">
+                <button id="searchBtn">Search</button>
+            </div>
+            <br>
+            <hr id="hr1">
+            <div class="historyContainer">
+                <ul id="searchHistory"></ul>
+            </div>
+        </aside>
+        <div class="content">
+            <div class="cityList">
+                <ul id="cityList">
+                </ul>
+            </div>
+            <div class="weatherInfo">
+                <h1 id="cityName"></h1>
+                <h2 id="date"></h2>
+                <h1 id="weather"></h1>
+                <h3 id="temp"></h3>
+                <h3 id="wind"></h3>
+                <h3 id="humidity"></h3>
+            </div>
+            <hr id="hr2">
+            <div class="forecast">
+                <div class="day1">
+                    <h4 id="day1Date"></h4>
+                    <h1 id="day1Weather"></h1>
+                    <h4 id="day1Temp"></h4>
+                    <h4 id="day1Wind"></h4>
+                    <h4 id="day1Humidity"></h4>
+                </div>
+                <div class="day2">
+                    <h4 id="day2Date"></h4>
+                    <h1 id="day2Weather"></h1>
+                    <h4 id="day2Temp"></h4>
+                    <h4 id="day2Wind"></h4>
+                    <h4 id="day2Humidity"></h4>
+                </div>
+                <div class="day3">
+                    <h4 id="day3Date"></h4>
+                    <h1 id="day3Weather"></h1>
+                    <h4 id="day3Temp"></h4>
+                    <h4 id="day3Wind"></h4>
+                    <h4 id="day3Humidity"></h4>
+                </div>
+                <div class="day4">
+                    <h4 id="day4Date"></h4>
+                    <h1 id="day4Weather"></h1>
+                    <h4 id="day4Temp"></h4>
+                    <h4 id="day4Wind"></h4>
+                    <h4 id="day4Humidity"></h4>
+                </div>
+                <div class="day5">
+                    <h4 id="day5Date"></h4>
+                    <h1 id="day5Weather"></h1>
+                    <h4 id="day5Temp"></h4>
+                    <h4 id="day5Wind"></h4>
+                    <h4 id="day5Humidity"></h4>
+                </div>
+            </div>
+        </div>
+    </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+        integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+        crossorigin="anonymous"></script>
+        <script src="./assets/script.js"></script>
+        
+</body>
+</html>
